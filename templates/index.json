@@ -3,11 +3,20 @@
     "ba12c027-c43f-4211-8065-ce123361805c": {
       "type": "multicolumn",
       "blocks": {
+        "0ee8a0ae-be4a-4f37-a234-3b5bf03eb30b": {
+          "type": "column",
+          "settings": {
+            "title": "Hi. I'm Jodie Tindall, the artist behind Mottafied Art. My original paintings and prints will show you beauty can be found in the darkest of places. ",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--14796251856965__ba12c027-c43f-4211-8065-ce123361805c-column-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/20231010_171704.jpg",
-            "title": "Hi. I'm Jodie Tindall, the artist behind Mottafied Art. My original paintings and prints will show you beauty can be found in the darkest of places. ",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -15,15 +24,16 @@
         }
       },
       "block_order": [
+        "0ee8a0ae-be4a-4f37-a234-3b5bf03eb30b",
         "template--14796251856965__ba12c027-c43f-4211-8065-ce123361805c-column-2"
       ],
       "settings": {
         "title": "Art to satisfy dreamers, weirdos and dark souls",
         "heading_size": "h0",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "portrait",
-        "columns_desktop": 2,
-        "column_alignment": "left",
+        "columns_desktop": 1,
+        "column_alignment": "center",
         "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
