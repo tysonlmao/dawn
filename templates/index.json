@@ -27,9 +27,12 @@
         "0ee8a0ae-be4a-4f37-a234-3b5bf03eb30b",
         "template--14796251856965__ba12c027-c43f-4211-8065-ce123361805c-column-2"
       ],
+      "custom_css": [
+        ".inline-richtext {text-align: center;}"
+      ],
       "settings": {
         "title": "Art to satisfy dreamers, weirdos and dark souls",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "portrait",
         "columns_desktop": 1,
