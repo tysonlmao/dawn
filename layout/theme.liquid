@@ -44,6 +44,13 @@
     %}
 
     {% style %}
+      @font-face {
+        font-family: "Lora";
+        src: url({{"Lora-VariableFont_wght.woff2" | asset_url}}) format("woff2");
+      }
+    {% endstyle %}
+
+    {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
