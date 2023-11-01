@@ -12,25 +12,26 @@
             "menu": "footer"
           }
         },
-        "footer-2": {
+        "59854a29-0b45-469d-96d2-5af69e43933e": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "",
+            "subtext": ""
           }
         },
-        "8f48d06b-a6a8-4afa-b95d-e226018a2d48": {
-          "type": "link_list",
+        "c5316ec1-87f8-496b-9923-8848c6197f7f": {
+          "type": "image",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "image": "shopify:\/\/shop_images\/IMG_1748.jpg",
+            "image_width": 200,
+            "alignment": "center"
           }
         }
       },
       "block_order": [
         "footer-1",
-        "footer-2",
-        "8f48d06b-a6a8-4afa-b95d-e226018a2d48"
+        "59854a29-0b45-469d-96d2-5af69e43933e",
+        "c5316ec1-87f8-496b-9923-8848c6197f7f"
       ],
       "settings": {
         "color_scheme": "background-1",
