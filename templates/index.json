@@ -1,5 +1,52 @@
 {
   "sections": {
+    "d7d769ee-5a5a-477f-98f9-2fea565b13bc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14796251856965__d7d769ee-5a5a-477f-98f9-2fea565b13bc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome",
+            "heading_size": "h1"
+          }
+        },
+        "template--14796251856965__d7d769ee-5a5a-477f-98f9-2fea565b13bc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14796251856965__d7d769ee-5a5a-477f-98f9-2fea565b13bc-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14796251856965__d7d769ee-5a5a-477f-98f9-2fea565b13bc-heading-1",
+        "template--14796251856965__d7d769ee-5a5a-477f-98f9-2fea565b13bc-text-1",
+        "template--14796251856965__d7d769ee-5a5a-477f-98f9-2fea565b13bc-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/20231010_171704.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -27,106 +74,10 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "ba12c027-c43f-4211-8065-ce123361805c": {
-      "type": "multicolumn",
-      "blocks": {
-        "0ee8a0ae-be4a-4f37-a234-3b5bf03eb30b": {
-          "type": "column",
-          "settings": {
-            "title": "Hi. I'm Jodie Tindall, the artist behind Mottafied Art. My original paintings and prints will show you beauty can be found in the darkest of places. ",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--14796251856965__ba12c027-c43f-4211-8065-ce123361805c-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/20231010_171704.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "0ee8a0ae-be4a-4f37-a234-3b5bf03eb30b",
-        "template--14796251856965__ba12c027-c43f-4211-8065-ce123361805c-column-2"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Art to satisfy dreamers, weirdos and dark souls",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "portrait",
-        "columns_desktop": 1,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
     }
   },
   "order": [
-    "featured_collection",
-    "ba12c027-c43f-4211-8065-ce123361805c",
-    "image_banner"
+    "d7d769ee-5a5a-477f-98f9-2fea565b13bc",
+    "featured_collection"
   ]
 }
