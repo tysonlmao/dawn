@@ -99,6 +99,11 @@
                       {{ block.settings.button_label | escape }}
                     </a>
                   {%- endif -%}
+                  {%- when 'logo' -%}
+                    <!-- Logo block code -->
+                    <div class="image-with-text__logo">
+                      <img src="{{ block.settings.logo_image | img_url: '300x' }}" alt="{{ block.settings.logo_alt_text }}" />
+                    </div>
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -116,6 +121,23 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "logo",
+      "name": "t:sections.image-with-text.blocks.logo.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "t:sections.image-with-text.blocks.logo.settings.logo_image.label"
+        },
+        {
+          "type": "text",
+          "id": "logo_alt_text",
+          "label": "t:sections.image-with-text.blocks.logo.settings.logo_alt_text.label"
+        }
+      }
+    },    
     {
       "type": "image_picker",
       "id": "image",
