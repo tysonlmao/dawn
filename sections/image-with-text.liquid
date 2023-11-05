@@ -65,7 +65,7 @@
             id="ImageWithText--{{ section.id }}"
             class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
           >
-            <img src="{{ 'jodie.png' | asset_url }}" alt="Alternative Text" height="100px" width="600px"/>
+            <img src="{{ 'jodie.png' | asset_url }}" alt="Alternative Text" height="50px" width="500px"/>
             {%- for block in section.blocks -%}
               {% case block.type %}
                 {%- when 'heading' -%}
